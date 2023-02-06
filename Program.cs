@@ -10,7 +10,7 @@ var apiKeyValue = config.GetSection("apiKeys").Value;
 if(args.Length > 0)
 {
      HttpClient client = new HttpClient();
-     client.DefaultRequestHeaders.Add("authorization", apiKeyValue);
+     client.DefaultRequestHeaders.Add("authorization", apiKeyValue);//19:17
 }
 else
 {
