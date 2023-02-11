@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fMXb9i40MvyYD3Rnlu2VT6QwgVGyo71Nfa3iUy4PFGTS16dMLwkpB+t7QwI/ZGAmFRJ3kEHO3QWICEMS0beERw==",
+  "dgSpecHash": "ufvfqOyLiA/dkaLTLp5QT8IoFrbQjcDCGZdUpeOEaT1Jd3Pl1W1efvBxJUetd+Ziz1hAGpsR/cim4GxiHXHFWg==",
   "success": true,
   "projectFilePath": "C:\\SoftWorkBox\\AskChatGPT\\ask\\ask.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,11 @@
     "C:\\Users\\akinw\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\akinw\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\akinw\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\akinw\\.nuget\\packages\\textcopy\\6.2.1\\textcopy.6.2.1.nupkg.sha512"
+    "C:\\Users\\akinw\\.nuget\\packages\\textcopy\\6.2.1\\textcopy.6.2.1.nupkg.sha512",
+    "C:\\Users\\akinw\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.7\\microsoft.netcore.app.runtime.win-x64.6.0.7.nupkg.sha512",
+    "C:\\Users\\akinw\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.7\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.7.nupkg.sha512",
+    "C:\\Users\\akinw\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.7\\microsoft.aspnetcore.app.runtime.win-x64.6.0.7.nupkg.sha512",
+    "C:\\Users\\akinw\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.7\\microsoft.netcore.app.crossgen2.win-x64.6.0.7.nupkg.sha512"
   ],
   "logs": []
 }
