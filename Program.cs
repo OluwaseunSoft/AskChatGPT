@@ -2,11 +2,15 @@
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 
-
+IConfigurationBuilder builder = new ConfigurationBuilder()
+.SetBasePath(Directory.GetCurrentDirectory())
+.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+.AddUserSecrets(typeof(Program).Assembly, optional: true);
+IConfigurationRoot config = builder.Build();
 if (args.Length > 0)
 {
     HttpClient client = new HttpClient();
-    client.DefaultRequestHeaders.Add("authorization", "Bearer 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");
+    client.DefaultRequestHeaders.Add("authorization", "Bearer " + config["ChatGPTKey"]);
 
     var content = new StringContent("{\"model\": \"text-davinci-001\", \"prompt\": \"" + args[0] + "\",\"temperature\": 1,\"max_tokens\": 100}",
     Encoding.UTF8, "application/json");
@@ -18,7 +22,6 @@ if (args.Length > 0)
     try
     {
         var dyData = JsonConvert.DeserializeObject<dynamic>(responseString);
-        
         string guess = GuessCommand(dyData!.choices[0].text);
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine($"--> My Guess At The Command Prompt Is: {guess}");
