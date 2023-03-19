@@ -2078,11 +2078,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SoftWorkBox\\AskChatGPT\\ask\\ask.csproj",
+      "projectUniqueName": "C:\\SoftWorkBox\\AskChatGPT\\ask\\tim\\AskChatGPT\\ask.csproj",
       "projectName": "ask",
-      "projectPath": "C:\\SoftWorkBox\\AskChatGPT\\ask\\ask.csproj",
+      "projectPath": "C:\\SoftWorkBox\\AskChatGPT\\ask\\tim\\AskChatGPT\\ask.csproj",
       "packagesPath": "C:\\Users\\akinw\\.nuget\\packages\\",
-      "outputPath": "C:\\SoftWorkBox\\AskChatGPT\\ask\\obj\\",
+      "outputPath": "C:\\SoftWorkBox\\AskChatGPT\\ask\\tim\\AskChatGPT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
