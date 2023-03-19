@@ -9,6 +9,9 @@ IConfigurationBuilder builder = new ConfigurationBuilder()
 IConfigurationRoot config = builder.Build();
 if (args.Length > 0)
 {
+    Console.ForegroundColor = ConsoleColor.Blue;
+    Console.WriteLine($"--> Starting new request");
+    Console.ResetColor();
     HttpClient client = new HttpClient();
     client.DefaultRequestHeaders.Add("authorization", "Bearer " + config["ChatGPTKey"]);
 
